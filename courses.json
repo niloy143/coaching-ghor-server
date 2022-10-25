@@ -1,0 +1,38 @@
+[
+    {
+        "id": "facebook-marketing",
+        "title": "Facebook Marketing",
+        "image": {
+            "thumbnail": "",
+            "background": ""
+        },
+        "tagline": "Learn how to create, edit and manage a facebook page, learn about facebook ads and boosting methods, reach your targeted customers and grow your business.",
+        "shortDescription": "Facebook is an online-place where most of the people spend their free time in. It's a big opportunity for the business owners to reach their customer easily. But you should know how to do that, how to reach the customer and deal with them and also how to use the facebook efficiently. This course will teach you these certain things.",
+        "learningList": [
+            "How to grow your sale",
+            "How to make your business a brand",
+            "How to deal with customers",
+            "Important features of facebook",
+            "Facebook boosting",
+            "Facebook ad manager",
+            "How to manage your page to gain organic customers"
+        ],
+        "mentors": [
+            {
+                "name": "Khaled Mohiuddin",
+                "img": "",
+                "qualification": "Marketing Officer and CEO of GloballyORG"
+            },
+            {
+                "name": "Ahmed Jamshed",
+                "img": "",
+                "qualification": "Sales manager and Marketing director at SheffBejo"
+            }
+        ],
+        "students": 260,
+        "time": 20,
+        "video": 37,
+        "Notes": 12,
+        "Quiz": 37
+    }
+]
