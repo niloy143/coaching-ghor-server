@@ -19,7 +19,17 @@ app.get('/course/:id', (req, res) => {
     const id = req.params.id;
     const course = courses.find(course => course.id === id) || {};
     res.send(course)
-}) 
+})
+
+app.get('/courses/free', (req, res) => {
+    const courseList = courses.filter(course => !(course.price))
+    res.send(courseList)
+})
+
+app.get('/courses/paid', (req, res) => {
+    const courseList = courses.filter(course => !!(course.price))
+    res.send(courseList)
+})
 
 app.listen(port, () => {
     console.log(`Coaching Ghor Server Is Running on ${port}`)
